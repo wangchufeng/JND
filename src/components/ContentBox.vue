@@ -3,7 +3,7 @@
 
     <v-app-bar
       app
-      color="indigo"
+      color="#1796f6"
       dark
     >
       <v-toolbar-title>JND </v-toolbar-title>
@@ -14,7 +14,7 @@
     </v-content>
 
     <v-footer
-      color="indigo"
+      color="#1796f6"
       app
     >
       <span class="white--text">&copy; 2020</span>

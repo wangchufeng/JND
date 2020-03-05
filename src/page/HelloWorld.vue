@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <ContentBox>
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -72,11 +72,15 @@ with close quantities.
         </v-row>
       </v-col>
     </v-row>
-  </v-container>
+  </ContentBox>
 </template>
 
 <script>
+  import ContentBox from '@/components/ContentBox'
   export default {
+    components:{
+        ContentBox
+    },
     name: 'HelloWorld',
     data: () => ({
       expdata: [

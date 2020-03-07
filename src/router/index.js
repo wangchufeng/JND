@@ -4,6 +4,7 @@ import Home from '@/page/Home'
 import Team from '@/page/Team'
 import Publication from '@/page/Publication'
 import HelloWorld from '@/page/HelloWorld'
+import Analysis from '@/page/Analysis'
 
 Vue.use(Router);
 
@@ -14,6 +15,11 @@ export default new Router({
             path: '/',
             name: 'HelloWorld',
             component:HelloWorld
+        },
+        {
+            path: '/analysis',
+            name: 'Analysis',
+            component:Analysis
         },
         {
             path: '/home',
